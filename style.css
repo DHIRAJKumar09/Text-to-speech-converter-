@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Popin' sans-serif;
+    box-sizing: border-box;
+
+}
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(45deg , #010758, #490d61);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+
+}
+.hero h1{
+    color: white;
+    font-size: 45px;
+    padding: 25px;
+    
+    
+}
+.hero span{
+    color: red;
+    border-bottom: 2px dashed red;
+}
+/*
+.hero textarea{
+    padding :25px 35px;
+    margin: 25px 50px;
+    height: 140px;
+    border: 2px solid #490d61 ;
+    border-radius: 5px;
+    background: transparent;
+    font-size: 20px;
+    color: yellow;
+    box-shadow: .9px .9px 5px white , 2px 2px 5px #490d61;
+}
+*/
+textarea{
+    width: 600px;
+    height: 250px;
+    background: #404d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 20px;
+    border-radius: 10px;
+    resize: none;
+    margin: 30px 35px;
+    justify-content: center;
+
+}
+textarea::placeholder{
+    font-size: 16px;
+    color: #ddd;
+
+}
+.row{
+    width: 600px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+button{
+    background: #ff2963;
+    color: #fff;
+    font-size: 16px;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+select{
+    flex:1;
+    color: #fff;
+    background: #403d84;
+    height: 50px;
+    padding: 0 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px ;
+    appearance: none;
+    background-size: 15px;
+    background-position-x: calc(100%-20%) ;
+    background-position-y: 20px;
+
+}
